@@ -1,0 +1,97 @@
+.objectives {
+  background-color: rgb(205, 216, 236);
+  padding: 100px 15px 70px;
+}
+
+.objectives .container .row .title h1::before {
+  left: 30%;
+}
+
+.objectives-content {
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 5%;
+}
+
+.obj-title {
+  margin-top: 5%;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0 0 13px;
+  margin-bottom: 3%;
+}
+
+.objectives-content h5 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.objectives-content p {
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-bottom: 2%;
+}
+
+.obj {
+  background-color: #fff;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.box::before {
+  content: "";
+  height: 2px;
+  background-color: rgb(205, 216, 236);
+  position: absolute;
+  bottom: 0px;
+  width: 50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: all 0.5s ease;
+}
+
+.box:hover::before {
+  width: 100%;
+}
+
+.box .icon {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(205, 216, 236);
+  margin: 15px auto 20px;
+  border-radius: 50%;
+}
+
+.box .icon .fa {
+  font-size: 25px;
+  color: #fff;
+  line-height: 60px;
+}
+
+.box .icon .fas {
+  font-size: 25px;
+  color: #fff;
+  line-height: 60px;
+}
+
+.box h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+}
